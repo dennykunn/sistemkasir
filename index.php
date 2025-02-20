@@ -41,6 +41,30 @@ switch ($page) {
         $content = 'views/products/edit.php';
         break;
 
+    case 'sales':
+        $title = "Penjualan";
+        $breadcrumb = ["Home" => "index.php", "Penjualan" => ""];
+        $content = 'views/sales/index.php';
+        break;
+
+    case 'create-sale':
+        $title = "Tambah Penjualan";
+        $breadcrumb = ["Home" => "index.php", "Penjualan" => "?page=create-sake", "Create" => ""];
+        $content = 'views/sales/add.php';
+        break;
+
+    case 'edit-sale':
+        $title = "Edit Penjualan";
+        $breadcrumb = ["Home" => "index.php", "Penjualan" => "?page=edit-sale", "Edit" => ""];
+        $content = 'views/sales/edit.php';
+        break;
+
+    case 'detail-sale':
+        $title = "Detail Penjualan";
+        $breadcrumb = ["Home" => "index.php", "Penjualan" => "?page=detail-sale", "Detail" => ""];
+        $content = 'views/sales/detail.php';
+        break;
+
     case 'roles':
         $title = "Role";
         $breadcrumb = ["Home" => "index.php", "Roles" => ""];

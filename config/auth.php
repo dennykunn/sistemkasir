@@ -1,5 +1,5 @@
 <?php
 if (!isset($_SESSION['user'])) {
-    header("Location: /sistemkasir/login.php");
+    header("Location: /x/login.php");
     exit;
 }

@@ -61,4 +61,12 @@ class Product
         $stmt->bindParam(":id", $id);
         return $stmt->execute();
     }
+    public function updateStock($id, $stock)
+    {
+        $query = "UPDATE  " . $this->table_name . " set stock = :stock WHERE id = :id";
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(":stock", $stock);
+        $stmt->bindParam(":id", $id);
+        return $stmt->execute();
+    }
 }

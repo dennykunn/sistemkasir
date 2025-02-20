@@ -28,6 +28,18 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="?page=sales" class="nav-link">
+                        <i class="nav-icon bi bi-receipt"></i>
+                        <p>Penjualan</p>
+                    </a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="?page=reports" class="nav-link">
+                        <i class="nav-icon bi bi-file-earmark-text"></i>
+                        <p>Laporan</p>
+                    </a>
+                </li> -->
+                <li class="nav-item">
                     <a href="?page=users" class="nav-link">
                         <i class="nav-icon bi bi-person-circle"></i>
                         <p>Data Pengguna</p>
